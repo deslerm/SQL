@@ -1,8 +1,0 @@
---Create a list database
-CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
-
-INSERT INTO books VALUES
-(1, "Chemistry", 3),
-(2, "Art Histry", 2),
-(3, "Histry", 1)
-;
