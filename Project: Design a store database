@@ -1,0 +1,20 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, section TEXT, price INTEGER, aisle INTEGER);
+
+INSERT INTO store VALUES (1, "bananas", "produce", 0.99, 5);
+INSERT INTO store VALUES (2, "popcorn", "snack", 4.89, 16);
+INSERT INTO store VALUES (3, "water", "drink", 3.68, 17);
+INSERT INTO store VALUES (4, "stawberry", "produce", 0.48, 5);
+INSERT INTO store VALUES (5, "smoothie berry", "frozen", 5.25, 23);
+INSERT INTO store VALUES (6, "sunflower", "floral", 2.45, 1);
+INSERT INTO store VALUES (7, "roses", "floral", 4.55, 1);
+INSERT INTO store VALUES (8, "water", "drink", 4.45, 15);
+INSERT INTO store VALUES (9, "yogert", "dairy", 3.25, 20);
+INSERT INTO store VALUES (10, "milk", "dairy", 4.63, 20);
+INSERT INTO store VALUES (11, "tea", "drink", 3.99, 15);
+INSERT INTO store VALUES (12, "lemon", "produce", 0.67, 4);
+INSERT INTO store VALUES (13, "soda", "drink", 2.35, 15);
+INSERT INTO store VALUES (14, "peanut", "snack", 2.28, 16);
+INSERT INTO store VALUES (15, "cookies", "snack", 2.98, 16);
+
+SELECT * FROM store 
+ORDER BY price desc
